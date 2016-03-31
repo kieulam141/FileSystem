@@ -118,6 +118,21 @@ Hiệu suất hoạt động với các file dung lượng *nhỏ* kém.
 ###### Nhược:
 Không thể *shrink*.
 
+### 4.Các lệnh làm việc với file
+#### a.du
+##### I.Khái niệm
+- du(`disk usage`) dùng để kiểm tra thông tin các file và thư mục sử dụng ổ đĩa.
+- lệnh *du* có những tham số cho ra các kết quả khác nhau.
+- lệnh *du* cũng hiển thị size của file và thư mục theo cách đệ quy
+
+##### II.Ví dụ
+- Trước tiên ta sẽ show ở thư mục đang hiện hành có những gì.
+
+<img src="http://i.imgur.com/BnZEYCm.png" />
+
+###### *Basic Example*
+<img src="http://i.imgur.com/VKoTjQe.png" />
+Sử dụng tùy chọn -a để show ra thông tin tất cả file lẫn thư mục.
 ### 4.Tham Khảo
 - https://btrfs.wiki.kernel.org/index.php/Main_Page
 - http://www.idz.vn/2015/08/tim-hieu-file-system-cua-linux.html
