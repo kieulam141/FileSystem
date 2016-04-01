@@ -130,11 +130,47 @@ Không thể *shrink*.
 
 <img src="http://i.imgur.com/BnZEYCm.png" />
 
-###### *Basic Example*
-<img src="http://i.imgur.com/VKoTjQe.png" />
-Sử dụng tùy chọn -a để show ra thông tin tất cả file lẫn thư mục.
-### 4.Tham Khảo
+###### *Ví dụ cơ bản*
+<img src="http://i.prntscr.com/72ea0b2e246045c9a35eaf74307c6a59.png" />
+Sử dụng tùy chọn "-a" để show ra thông tin tất cả file lẫn thư mục, "-h" để người đọc có thể đọc dễ dàng hơn, "-c" để show ra tổng dung lượng của thư mục hiện hành, "-b" hiện đầu ra với tham số là bytes.
+
+###### *Loại Trừ loại file bất kì sử dụng --excute*
+<img src="http://i.prntscr.com/a1535bb3e32c449a8439ca68f42a0611.png" />
+Bạn có thể thấy những file đuôi .txt không được show ra.
+
+##### *Hiển thị ra thời gian và tùy chỉnh style*
+<img src="http://i.prntscr.com/47ef0e5fa0d84736b6a7f2fe436a3306.png" />
+<img src="http://i.prntscr.com/7d603bd58d9345aebde878461d3ca6b1.png" />
+với --time-style bạn cũng có thể dùng tham số:full-iso, long-iso
+
+#### b.df
+##### I.Khái niệm
+df(`disk free`) dùng để lấy toàn bộ thông tin về lượng ổ cứng khả dụng và lượng ổ cứng đã dùng của các file hệ thống trên linux.
+
+###### Kiểm tra dung lượng ổ cứng mà các file hệ thống sử dụng.
+<img src="http://i.prntscr.com/aa17a6bdaca944f2b077419a7ed47f70.png" />
+
+###### Hiện thị thông tin  ổ đĩa các file hệ thống sử dụng
+<img src="http://i.prntscr.com/15cb6d658034491881ec9a9465f5f456.png" />
+
+###### Hiển thị dung lượng đĩa sử dụng dạng MB và GB
+- "-h": theo Gigabytes
+- "-m": theo Megabytes
+- "-k": theo kilobytes
+<img src="http://i.prntscr.com/6da94f4074634cbd80a40a21b7d7b1af.png" />
+
+###### Hiện thị thông tin về thư mục Home
+- "-T":Hiển thị định dạng file
+<img src="http://i.prntscr.com/07d3df0861184622b64beae2af4981f2.png" />
+
+###### Xem thông tin Inodes
+<img src="http://i.prntscr.com/0d23ab285ee14d0bb851a010b10d9890.png" />
+
+###### 
+### 5.Tham Khảo
 - https://btrfs.wiki.kernel.org/index.php/Main_Page
 - http://www.idz.vn/2015/08/tim-hieu-file-system-cua-linux.html
+- https://hostingaz.vn/2654-tong-hop-cac-lenh-df-huu-dung-khi-kiem-tra-dung-luong-o-dia-tren-linux.html
+- http://www.thegeekstuff.com/2012/06/du-command-examples/
 
 
